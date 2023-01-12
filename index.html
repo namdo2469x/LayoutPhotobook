@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Photobook</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/font/PFAgoraSansPro-Light.ttf'>
+    <link rel="stylesheet" href="./assets/themeify-icon/themify-icons.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel/asset/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel/asset/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src='./assets/js/main.js'></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+
+        <div class="responsive">
+            <div class="header-container">
+
+                <div class="header-container-left">
+                    <div onclick="showNavbar()" class="container-left-nav mobile-menu">
+                        <i class="ti-menu"></i>
+                    </div>
+                    <div class="container-left-icon">
+                        <img src="assets/image/Shape 3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="header-container-right">
+                    <div class="container-right-phone">
+                        +11 235 813 2134
+                    </div>
+                    <div class="container-right-exit">
+                        <img src="assets/image/Vector Smart Object.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div onclick="hideNavbar()" class="overlay"></div>
+        <div class="nav">
+            <i onclick="hideNavbar()" class="icon ti-close"></i>
+            <li onclick="hideNavbar()"><a href="#" class="">Home</a></li>
+            <li onclick="hideNavbar()"><a href="#roadmap" class="">Roadmap</a></li>
+            <li onclick="hideNavbar()"><a href="#advantage" class="">Advantage</a></li>
+            <li onclick="hideNavbar()"><a href="#price" class="">Price</a></li>
+            <li onclick="hideNavbar()"><a href="#testimonial" class="">Testimonial</a></li>
+            <li onclick="hideNavbar()"><a href="#term" class="">Terms</a></li>
+            <li onclick="hideNavbar()"><a href="#footer" class="">Contact</a></li>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="banner-container">
+            <p class="banner__heading">Create your own photostory</p>
+            <p class="banner__subHeading">Make your photobook online</p>
+        </div>
+        <div class="photo-book__button">
+            MAKE YOUR PHOTOBOOK
+        </div>
+    </div>
+
+    <!-- Road map -->
+    <div id="roadmap" class="roadmap">
+        <div class="responsive">
+            <div class="roadmap-container">
+                <div class="roadmap-container-item">
+                    <div class="download-icon">
+                        <img class="download-icon__item" src="./assets/image/cloud.png" alt="">
+                    </div>
+                    <p class="download-icon__heading">Download <br> photos</p>
+                </div>
+                <div class="roadmap-container-line"></div>
+                <div class="roadmap-container-item">
+                    <div class="download-icon">
+                        <img class="download-icon__item" src="./assets/image/pc.png" alt="">
+                    </div>
+                    <p class="download-icon__heading">Design your <br> photobook</p>
+                </div>
+                <div class="roadmap-container-line"></div>
+                <div class="roadmap-container-item">
+                    <div class="download-icon">
+                        <img class="download-icon__item" src="./assets/image/hand.png" alt="">
+                    </div>
+                    <p class="download-icon__heading">Pay <br> for service</p>
+                </div>
+                <div class="roadmap-container-line"></div>
+                <div class="roadmap-container-item">
+                    <div class="download-icon">
+                        <img class="download-icon__item" src="./assets/image/cart.png" alt="">
+                    </div>
+                    <p class="download-icon__heading">Get your <br> photobook</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Advantage -->
+    <div id="advantage" class="advantage">
+        <div class="responsive">
+            <div class="advantage-container">
+                <p class="advantage-container__heading">ADVANTAGE</p>
+                <div class="advantage-container-list">
+                    <div class="advantage-container-list-item">
+                        <div class="list-item-picture">
+                            <img class="list-item-picture1" src="./assets/image/Ellipse 1.png" alt="">
+                            <img class="list-item-picture2" src="./assets/image/social_media.png" alt="">
+                        </div>
+                        <p class="list-item__heading">
+                            Import photos <br>
+                            from your social networks</p>
+                        <p class="list-item__para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            modi
+                            tempora
+                        </p>
+                    </div>
+                    <div class="advantage-container-list-item">
+                        <img class="list-item-picture1" src="./assets/image/cat.png" alt="">
+                        <p class="list-item__heading">
+                            Photo editing
+                        </p>
+                        <p class="list-item__para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ora incidunt ut labore.
+                        </p>
+                    </div>
+                    <div class="advantage-container-list-item">
+                        <img class="list-item-picture1" src="./assets/image/0.png" alt="">
+                        <p class="list-item__heading">
+                            Template
+                        </p>
+                        <p class="list-item__para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex commodo.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantage__button">
+                    MAKE YOUR PHOTOBOOK
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Price -->
+    <div id="price" class="price">
+        <div class="responsive">
+            <p class="price-container__heading">READY SOLUTIONS</p>
+            <div class="price-container">
+                <div class="price-container-lightbook">
+                    <p class="price-container-lightbook__heading"><span>L</span>IGHT<span>B</span>OOK</p>
+                    <div class="price-container-lightbook-detail">
+                        <div class="lightbook-detail-item">
+                            <div class="lightbook-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>15x10 cm</p>
+                            </div>
+                            <div class="lightbook-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>12 pages</p>
+                            </div>
+                            <div class="lightbook-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>binding on the clip</p>
+                            </div>
+                            <p class="lightbook-detail-item__price">$129</p>
+                        </div>
+                    </div>
+                    <p class="price-container-lightbook__subHeading">Make your <span>L</span>IGHT<span>B</span>OOK</p>
+                </div>
+                <div class="price-container-classicbook">
+                    <p class="price-container-classicbook__hot">BESTSELLER</p>
+                    <p class="price-container-classicbook__heading"><span>C</span>LASSIC<span>B</span>OOK</p>
+                    <div class="price-container-classicbook-detail">
+                        <div class="classicbook-detail-item">
+                            <div class="classic-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>30x21 cm</p>
+                            </div>
+                            <div class="classic-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>36 pages</p>
+                            </div>
+                            <div class="classic-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>binding on the spring</p>
+                            </div>
+                            <div class="classic-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>fabric cover</p>
+                            </div>
+                            <p class="classic-detail-item__price">$239</p>
+                        </div>
+                    </div>
+                    <p class="price-container-classicbook__subHeading">Make your <span>C</span>LASSIC<span>B</span>OOK
+                    </p>
+                </div>
+                <div class="price-container-premiumbook">
+                    <p class="price-container-premiumbook__heading"><span>P</span>REMIUM<span>B</span>OOK</p>
+                    <div class="price-container-premiumbook-detail">
+                        <div class="premiumbook-detail-item">
+                            <div class="premium-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>42x50 cm</p>
+                            </div>
+                            <div class="premium-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>50 pages</p>
+                            </div>
+                            <div class="premium-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>hardcover</p>
+                            </div>
+                            <div class="premium-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>leather cover</p>
+                            </div>
+                            <div class="premium-detail-item-detail">
+                                <img src="./assets/image/check.png" alt="">
+                                <p>free shipping</p>
+                            </div>
+                            <p class="premium-detail-item__price">$759</p>
+                        </div>
+                    </div>
+                    <p class="price-container-premiumbook__subHeading">Make your <span>P</span>REMIUM<span>B</span>OOK
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Testimonials -->
+    <div id="testimonial" class="testimonial">
+        <div class="responsive">
+            <div class="testimonial-container">
+                <div class="testimonial-container-left">
+                    <p class="testimonial-container__heading">TESTIMONIALS</p>
+                    <div class="slider">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <div class="item-info">
+                                    <img src="./assets/image/john.png" alt="">
+                                    <div class="item-info-detail">
+                                        <p class="item-info-detail__heading"><span>J</span>OHN <span>D</span>OE</p>
+                                        <p class="item-info-detail__subHeading">Wedding photographer</p>
+                                    </div>
+                                </div>
+                                <p class="item-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    <br>
+                                    <br>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="item">
+                                <div class="item-info">
+                                    <img src="./assets/image/john.png" alt="">
+                                    <div class="item-info-detail">
+                                        <p class="item-info-detail__heading"><span>J</span>OHN <span>D</span>OE</p>
+                                        <p class="item-info-detail__subHeading">Wedding photographer</p>
+                                    </div>
+                                </div>
+                                <p class="item-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    <br>
+                                    <br>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="item">
+                                <div class="item-info">
+                                    <img src="./assets/image/john.png" alt="">
+                                    <div class="item-info-detail">
+                                        <p class="item-info-detail__heading"><span>J</span>OHN <span>D</span>OE</p>
+                                        <p class="item-info-detail__subHeading">Wedding photographer</p>
+                                    </div>
+                                </div>
+                                <p class="item-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    <br>
+                                    <br>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container-left__button">
+                        MAKE YOUR PHOTOBOOK
+                    </div>
+                </div>
+                <div class="testimonial-container-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms -->
+    <div id="term" class="term">
+        <div class="responsive">
+            <div class="term-container">
+                <div class="term-container-list">
+                    <div class="term-container-list__heading">
+                        <span>T</span>ERMS
+                    </div>
+                    <div class="term-container-list-para">
+                        <div class="term-container-list-para-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                            <br>
+                            <br>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla.
+                        </div>
+                    </div>
+                </div>
+                <div class="term-container-list">
+                    <div class="term-container-list__heading">
+                        <span>P</span>AYMENT
+                    </div>
+                    <div class="term-container-list-para">
+                        <div class="term-container-list-para-text">
+                            <ul>Payment methods:
+                                <li>VISA</li>
+                                <li>Mastercard</li>
+                                <li>Paypal</li>
+                                <li>American Express</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="term-container-list">
+                    <div class="term-container-list__heading">
+                        <span>S</span>HIPPING
+                    </div>
+                    <div class="term-container-list-para">
+                        <div class="term-container-list-para-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt
+                            ut
+                            labore et dolore magna aliqua.
+                            <br>
+                            <br>
+                            <p class="para-text__subHeading">Free shipping for <br>
+                                <span>P</span>REMIUM<span>B</span>OOK
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="term-footer">MAKE YOUR PHOTOBOOK</div>
+        </div>
+    </div>
+
+    <div id="footer" class="footer">
+        <div class="responsive">
+            <div class="footer-container">
+                <div class="footer-container-left">
+                    <div class="footer-container-item">
+                        <a href="" class="container-item-link">About us</a>
+                        <a href="" class="container-item-link">Careers</a>
+                        <a href="" class="container-item-link">Help</a>
+                        <a href="" class="container-item-link">Press</a>
+                    </div>
+                    <div class="footer-container-item">
+                        <a href="" class="container-item-link">Terms</a>
+                        <a href="" class="container-item-link">Payment</a>
+                        <a href="" class="container-item-link">Shipping</a>
+                        <a href="" class="container-item-link">Contact</a>
+                    </div>
+                    <div class="footer-container-item">
+                        <a href="" class="container-item-link"><span>L</span>IGHT<span>B</span>OOK</a>
+                        <a href="" class="container-item-link"><span>C</span>LASSIC<span>B</span>OOK</a>
+                        <a href="" class="container-item-link"><span>P</span>REMIUM<span>B</span>OOK</a>
+                    </div>
+                </div>
+                <div class="footer-container-right">
+                    <div class="footer-container-right-item">
+                        <i><img src="./assets/icon/fb.png" alt=""></i>
+                        <i><img src="./assets/icon/vk.png" alt=""></i>
+                        <i><img src="./assets/icon/instagram.png" alt=""></i>
+                        <div class="footer-container-right-cre">
+                            <p>Designed by</p>
+                            <img src="./assets/icon/Logo2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2015 Photobook. All rights reserved
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/OwlCarousel/owl.carousel.min.js"></script>
+
+<script>
+    const navbar = document.querySelector('.mobile-menu')
+    const nav = document.querySelector('.nav')
+    function showNavbar() {
+        nav.classList.add("open")
+        $(".overlay").show()
+    }
+
+    function hideNavbar() {
+        nav.classList.remove("open")
+        $(".overlay").hide()
+    }
+</script>
+
+</html>
